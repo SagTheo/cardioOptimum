@@ -8,25 +8,45 @@ h1 {
     background-image: url('pic1.jpg');
   }
   
-  .second {
-    background-image: url('pic2.jpg');
-  }
+.second {
+  background-image: url('pic2.jpg');
+}
+
+.third {
+  background-image: url('pic3.jpg');
+}
+
+.fourth {
+  background-image: url('pic4.jpg');
+}
+.fifth {
+  background-image: url('pic5.jpg');
+}
+
+.sixth {
+  background-image: url('pic6.jpg');
+}
+
+.seventh {
+  background-image: url('pic7.jpg');
+}
   
-  .third {
-    background-image: url('pic3.jpg');
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+/* @media (min-width: 768px) {
+  .carousel {
+    width: 50vw;
   }
-  
-  .fourth {
-    background-image: url('pic4.jpg');
-  }
-  
-  .first,
-  .second,
-  .third,
-  .fourth {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-  }
+} */
