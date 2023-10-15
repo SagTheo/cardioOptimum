@@ -1,3 +1,21 @@
+.bgImage {
+  background-image: url('pic6.jpg');
+  filter: blur(10px);
+}
+
+.welcome {
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 h1 {
     font-size: 3rem;
 }
@@ -30,6 +48,10 @@ h1 {
 .seventh {
   background-image: url('pic7.jpg');
 }
+
+.eigth {
+  background-image: url('pic8.jpg');
+}
   
 .first,
 .second,
@@ -37,7 +59,9 @@ h1 {
 .fourth,
 .fifth,
 .sixth,
-.seventh {
+.seventh,
+.eigth,
+.bgImage {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,8 +69,12 @@ h1 {
   height: 100vh;
 }
 
-/* @media (min-width: 768px) {
-  .carousel {
+@media (min-width: 769px) {
+  /* .carousel {
     width: 50vw;
+  } */
+
+  .welcome { 
+    width: 40vw;
   }
-} */
+}
