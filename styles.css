@@ -1,6 +1,6 @@
 .bgImage {
   background-image: url('pic6.jpg');
-  filter: blur(10px);
+  filter: blur(8px);
 }
 
 .welcome {
@@ -14,6 +14,17 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.contactDetails, .openingHours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  padding: 20px;
 }
 
 h1 {
@@ -69,12 +80,37 @@ h1 {
   height: 100vh;
 }
 
+
+/* Responsiveness */
+
 @media (min-width: 769px) {
-  /* .carousel {
+  .carousel, .contactAndHours {
     width: 50vw;
-  } */
+  }
 
   .welcome { 
     width: 40vw;
+  }
+
+  .text {
+    grid-area: a;
+    padding: 100px 200px;
+    line-height: 40px;
+  }
+
+  .carousel {
+    grid-area: b;
+  }
+
+  .contactAndHours {
+    grid-area: c;
+  }
+
+  .info {
+    display: grid;
+    grid-template-areas: 
+        "a a"
+        "b c"
+    ;
   }
 }
