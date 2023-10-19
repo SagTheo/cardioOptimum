@@ -1,0 +1,22 @@
+{
+  "name": "cardiooptimum",
+  "version": "1.0.0",
+  "description": "Simple info website for fitness gym",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SagTheo/cardioOptimum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SagTheo/cardioOptimum/issues"
+  },
+  "homepage": "https://github.com/SagTheo/cardioOptimum#readme",
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
