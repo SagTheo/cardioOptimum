@@ -31,10 +31,27 @@
 .text {
   text-align: center;
   padding: 20px;
+  font-size: 1.3rem;
 }
 
 h1 {
     font-size: 3rem;
+}
+
+.everyone {
+  margin-bottom: 2rem;
+}
+
+.bold {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 
@@ -118,5 +135,13 @@ h1 {
         "a a"
         "b c"
     ;
+  }
+
+  .price {
+    font-size: 1.5rem;
+  }
+
+  .bold {
+    font-size: 2rem;
   }
 }
