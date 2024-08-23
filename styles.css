@@ -38,7 +38,11 @@ h1 {
     font-size: 3rem;
 }
 
-.everyone {
+.closed {
+  font-weight: 500;
+}
+
+.marginBottom {
   margin-bottom: 2rem;
 }
 
